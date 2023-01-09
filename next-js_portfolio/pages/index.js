@@ -37,9 +37,9 @@ export default function Home({data,repo}) {
                     <p style={{display:"inline"}}>Followers:{data.followers}</p>
                     <p style={{display:"inline",marginLeft:"10px"}}>Following:{data.following}</p>
                   </div>
-                  <div style={{display:"flex",width:"100%",justifyContent:"space-between",marginTop:"2%"}}>
-                 <Link target="_blank" href="https://drive.google.com/file/d/18Lv83gxFAq4d4EWxGFproS_ju1DTpYey/view?usp=share_link"> <Button colorScheme="pink">Resume</Button></Link> 
-                 <Link target="_blank" href={data.html_url}><Button colorScheme="blue">Follow</Button></Link> 
+                  <div  style={{display:"flex",width:"100%",justifyContent:"space-between",marginTop:"2%"}}>
+                 <Link target="_blank" href="https://drive.google.com/file/d/18Lv83gxFAq4d4EWxGFproS_ju1DTpYey/view?usp=share_link"> <Button className='btn' colorScheme="pink">Resume</Button></Link> 
+                 <Link target="_blank" href={data.html_url}><Button className='btn' colorScheme="blue">Follow</Button></Link> 
                  </div>
 
                 
