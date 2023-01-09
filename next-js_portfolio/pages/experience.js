@@ -11,7 +11,7 @@ const experience = () => {
                   <p>BINAYAK ACHARYA COLLEGE</p>
                   <p>2018-2021</p>
                   <h1>10th CBSE</h1>
-                  <p>ST.XAVIER'S HIGH SCHOOL</p>
+                  <p>ST_XAVIERS HIGH SCHOOL</p>
               </div>
     </div>
   )

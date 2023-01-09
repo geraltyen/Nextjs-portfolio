@@ -66,4 +66,9 @@
 .repos{
     color: yellow;
     font-size: 20px;
+    
+}
+.icon{
+    width: 20px;
+    height: 20px;
 }

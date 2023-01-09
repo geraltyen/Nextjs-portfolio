@@ -23,9 +23,9 @@ const Projects = ({repo}) => {
                         </div>
                     <div style={{display:"flex",justifyContent:"space-between",marginTop:"5%",height:"auto"}}>
                       <div style={{display:"flex",gap:"10px"}} >
-                        <TbGitFork/>
+                        <TbGitFork className='icon'/>
                         {ele.forks_count}
-                        <AiOutlineStar/>
+                        <AiOutlineStar className='icon'/>
                         {ele.stargazers_count}
                         </div>
                         <div>

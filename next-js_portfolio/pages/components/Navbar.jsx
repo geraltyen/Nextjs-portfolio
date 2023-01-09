@@ -10,7 +10,7 @@ const Navbar = () => {
         margin:"1%"
     }
   return (
-    <div >
+    <div className=''>
         <ul style={style}>
             <Link href="/"><li>R Giri Reddy</li></Link>  
           <Link href="/projects"><li>Projects</li></Link>  
